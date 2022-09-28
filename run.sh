@@ -1,0 +1,3 @@
+#!bin/bash
+python build.py --libsodium -DENABLE_ALL_OT=ON -DENABLE_BOOST=ON -DCOPROTO_ENABLE_BOOST=TRUE -DCOPROTO_ENABLE_BOOST=ON -DENABLE_BITPOLYMUL=TRUE -DENABLE_SILENT_VOLE=ON
+./out/build/linux/examples/examples $*

@@ -145,6 +145,12 @@ void sss()
 int main(int argc, char** argv)
 {
 
+	std::cout << "argc: " << argc << " argv: " << argv << std::endl;
+	for (int i = 0; i < argc; i++)
+	{
+		std::cout << "argv[" << i << "]:" << argv[i] << std::endl;
+	}
+	
 	CLP cmd;
 	cmd.parse(argc, argv);
 	bool flagSet = false;
