@@ -54,7 +54,7 @@ The library can be built as
 ```
 git clone https://github.com/osu-crypto/libOTe.git
 cd libOTe
-python build.py --relic
+python build.py --relic -DENABLE_ALL_OT=ON -DENABLE_BOOST=ON --sudo
 ```
 The main executable with examples is `frontend` and is located in the build directory, eg `out/build/linux/frontend/frontend.exe, out/build/x64-Release/frontend/Release/frontend.exe` depending on the OS. 
 
